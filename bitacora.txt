@@ -10,7 +10,6 @@
  (03)	git add bitacora.txt
 	git commit -m "Paso 03"
  (04)	git push origin master
-<<<<<<< HEAD
  (06)	git add bitacora.txt
  	git commit -m "Paso 06"
  (07)	git branch develop
@@ -30,7 +29,6 @@
  (22)	git checkout feature(		Debido ha que develop no ha sufrido
 	Ticket220			cambios desde la creacion de la rama
 					sería fast-forward
-=======
  (10)	git add bitacora.txt
 	git commit -m "Paso 10"
  (11)	git checkout develop
@@ -42,4 +40,10 @@
 	git commit -m "Paso 16"
  (17)	git checkout feature/
 	Ticket221
->>>>>>> feature/Ticket221
+ (24)	git add bitacora.txt
+ 	git commit -m "Paso 24"
+ (25)	git checkout develop
+ (26)	git merge feature/
+	Ticket220 --no-ff
+ (27)	git merge feature/		Hay conflictos en bitacora debido a los
+	Ticket221 --no-ff		cambios despues del merge de Ticket220

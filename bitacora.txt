@@ -20,3 +20,12 @@
  (14)	git stash
 	git checkout feature/
 	Ticket220
+ (18)	git pop
+ (19)	git add bitacora.txt
+	git commit -m "Paso 19"
+ (20) 	git checkout develop
+ (21)	git branch feature/
+	Ticket222
+ (22)	git checkout feature(		Debido ha que develop no ha sufrido
+	Ticket220			cambios desde la creacion de la rama
+					sería fast-forward

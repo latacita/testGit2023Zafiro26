@@ -17,3 +17,6 @@
 	Ticket220
 	git checkout feature/
 	Ticket220
+ (14)	git stash
+	git checkout feature/
+	Ticket220

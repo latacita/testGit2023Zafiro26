@@ -10,6 +10,7 @@
  (03)	git add bitacora.txt
 	git commit -m "Paso 03"
  (04)	git push origin master
+<<<<<<< HEAD
  (06)	git add bitacora.txt
  	git commit -m "Paso 06"
  (07)	git branch develop
@@ -29,3 +30,16 @@
  (22)	git checkout feature(		Debido ha que develop no ha sufrido
 	Ticket220			cambios desde la creacion de la rama
 					sería fast-forward
+=======
+ (10)	git add bitacora.txt
+	git commit -m "Paso 10"
+ (11)	git checkout develop
+ (12)	git branch feature/
+	Ticket221
+	git checkout feature/
+	Ticket221
+ (16)	git add bitacora.txt
+	git commit -m "Paso 16"
+ (17)	git checkout feature/
+	Ticket221
+>>>>>>> feature/Ticket221

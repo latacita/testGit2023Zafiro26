@@ -47,3 +47,10 @@
 	Ticket220 --no-ff
  (27)	git merge feature/		Hay conflictos en bitacora debido a los
 	Ticket221 --no-ff		cambios despues del merge de Ticket220
+ (29)	git add bitacora.txt
+	git commit -m "Paso 29"
+ (30)	git tag "Step29"
+ (31)	git push origin develop
+ (32)	git checkout feature/
+	Ticket222
+ (33)	git merge develop -no-ff

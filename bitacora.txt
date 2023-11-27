@@ -54,3 +54,10 @@
  (32)	git checkout feature/
 	Ticket222
  (33)	git merge develop -no-ff
+ (35)	git add bitacora.text
+	git commit -m "Paso 35"
+ (36)	git checkout develop
+ (37)	git merge feature/
+	Ticket222 --no-ff
+ (38)	git checkout master
+ (39)	git merge develop --no-ff
